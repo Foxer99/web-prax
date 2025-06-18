@@ -147,7 +147,7 @@ body header div nav ul li a:hover
 {
     display: flex;
     justify-content: space-around;
-    gap: 16.8rem;
+    gap: 30rem;
     flex-direction: row;
     align-items: center;
 }
@@ -183,3 +183,102 @@ body header div nav ul li a:hover
 /* section-2-end */
 
 /* section-3 */
+.section-3
+{
+    max-width: 144rem;
+    margin: 10rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 div
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 30rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-3 div ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2rem;
+    border: 0.3rem solid #F46628;
+    border-radius: 2.5rem;
+    padding: 2rem 4rem;
+}
+
+
+.section-3 div ul li a
+{
+    font-size: 2.4rem;
+    color: #F46628;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.section-3 div ul li h1
+{
+    font-size: 5rem;
+    color: #F46628;
+    margin-bottom: 3.3rem;
+}
+
+/* section-3-end */
+
+/* section-4 */
+.section-4
+{
+    max-width: 144rem;
+    margin: 10rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 div
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 15rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-4 div ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2rem;
+    border: 0.3rem solid #F46628;
+    border-radius: 2.5rem;
+    padding: 2rem 4rem;
+}
+
+
+.section-4 div ul li a
+{
+    font-size: 2.4rem;
+    color: #F46628;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.section-4 div ul li h1
+{
+    font-size: 5rem;
+    color: #F46628;
+    margin-bottom: 3.3rem;
+}
+/* section-4-end */
+
+/* Footer */
+
+/* Footer-end */
