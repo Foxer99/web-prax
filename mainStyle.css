@@ -280,5 +280,80 @@ body header div nav ul li a:hover
 /* section-4-end */
 
 /* Footer */
+footer
+{
+    max-width: 144rem;
+}
 
+footer div
+{
+    padding: 2rem;
+    border-top: 0.1rem solid #F46628;
+    border-bottom: 0.3rem solid #F46628;
+    border-radius: 2.5rem;
+    margin-bottom: 10rem;
+}
+
+footer div ul
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+footer div ul li
+{
+    list-style-type: none;
+}
+
+.logoFox img
+{
+    height: 15.4rem;
+    width: 15.7rem;
+}
+
+.logoFox img:hover
+{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.ig img:hover
+{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.dis img:hover
+{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.yt img:hover
+{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.fb img:hover
+{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.r img:hover
+{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.twit  img:hover
+{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 /* Footer-end */
