@@ -281,7 +281,7 @@ body header div nav ul li a:hover
 
 /* Footer */
 footer
-{
+{    
     max-width: 144rem;
 }
 
@@ -357,3 +357,178 @@ footer div ul li
     transition: 0.3s;
 }
 /* Footer-end */
+
+ /*------------------------------media query-----------------------------*/
+/* nad 1440px */
+@media (min-width: 1441px) 
+{
+  body 
+  {
+    padding: 0rem 15rem;
+  }
+
+  body header div 
+  {
+    gap: 40rem;
+  }
+
+  .section-1 div, .section-2 div, .section-3 div, .section-4 div 
+  {
+    gap: 40rem;
+  }
+}
+
+/* do 1440px */
+@media (max-width: 1440px) 
+{
+  body 
+  {
+    padding: 0rem 10rem;
+  }
+
+  body header div 
+  {
+    gap: 34rem;
+  }
+
+  .section-1 div, .section-2 div, .section-3 div, .section-4 div 
+  {
+    gap: 30rem;
+  }
+}
+
+/* do 1200px */
+@media (max-width: 1200px) 
+{
+  body 
+  {
+    padding: 0rem 6rem;
+  }
+
+  .section-1 div, .section-2 div, .section-3 div, .section-4 div 
+  {
+    gap: 20rem;
+  }
+}
+
+/* do 1024px */
+@media (max-width: 1024px) 
+{
+  body 
+  {
+    padding: 0rem 3rem;
+  }
+
+  body header div 
+  {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  body header div nav ul 
+  {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  body header div nav ul li 
+  {
+    padding: 0.7rem 1.5rem;
+  }
+
+  body header div img 
+  {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .section-1 div,
+  .section-2 div,
+  .section-3 div,
+  .section-4 div 
+  {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section-1 div ul li h1,
+  .section-2 div ul li h1,
+  .section-3 div ul li h1,
+  .section-4 div ul li h1 
+  {
+    font-size: 3.5rem;
+  }
+
+  .section-1 div ul li,
+  .section-1 div ul li a,
+  .section-2 div ul li,
+  .section-2 div ul li a,
+  .section-3 div ul li,
+  .section-3 div ul li a,
+  .section-4 div ul li,
+  .section-4 div ul li a 
+  {
+    font-size: 1.8rem;
+  }
+
+  footer div ul 
+  {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* do 393px */
+@media (max-width: 393px) 
+{
+  body 
+  {
+    padding: 0rem 1rem;
+  }
+
+  body header div img 
+  {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  body header div nav ul li 
+  {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+  }
+
+  .section-1 div ul,
+  .section-2 div ul,
+  .section-3 div ul,
+  .section-4 div ul 
+  {
+    padding: 1rem;
+  }
+
+  .section-1 div ul li h1,
+  .section-2 div ul li h1,
+  .section-3 div ul li h1,
+  .section-4 div ul li h1 
+  {
+    font-size: 2.8rem;
+  }
+
+  .section-1 div ul li,
+  .section-1 div ul li a,
+  .section-2 div ul li,
+  .section-2 div ul li a,
+  .section-3 div ul li,
+  .section-3 div ul li a,
+  .section-4 div ul li,
+  .section-4 div ul li a 
+  {
+    font-size: 1.4rem;
+  }
+
+  footer div ul 
+  {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
